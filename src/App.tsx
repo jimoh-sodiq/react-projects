@@ -2,6 +2,7 @@ import { useState } from "react";
 import Accordion from "./modules/accordion/accordion";
 import RandomColorGenerator from './modules/random-color-generator/randomColor';
 import StarRating from './modules/star-rating';
+import QRCodeGenerator from './modules/qrcode-generator';
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
       <main className='flex flex-col gap-6'>
         {/* <Accordion /> */}
         {/* <RandomColorGenerator /> */}
-        <StarRating />
+        {/* <StarRating /> */}
+        <QRCodeGenerator />
       </main>
     </>
   );
